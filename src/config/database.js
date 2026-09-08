@@ -1,8 +1,6 @@
 const { Pool } = require('pg');
 
-require('dotenv').config({
-  override: true,
-});
+require('dotenv').config();
 
 const pool = new Pool({
   connectionString:
